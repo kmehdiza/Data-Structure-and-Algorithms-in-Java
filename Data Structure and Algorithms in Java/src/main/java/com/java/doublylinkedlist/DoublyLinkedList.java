@@ -1,4 +1,4 @@
-package com.java.singlylinkedlist;
+package com.java.doublylinkedlist;
 
 import java.util.NoSuchElementException;
 

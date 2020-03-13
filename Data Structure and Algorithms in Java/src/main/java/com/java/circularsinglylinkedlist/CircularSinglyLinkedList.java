@@ -1,4 +1,4 @@
-package com.java.singlylinkedlist;
+package com.java.circularsinglylinkedlist;
 
 public class CircularSinglyLinkedList {
 
@@ -67,7 +67,10 @@ public class CircularSinglyLinkedList {
     public static void main(String[] args) {
 
         CircularSinglyLinkedList csl = new CircularSinglyLinkedList();
-        csl.createCircularLinkedList();
+        csl.insertFirst(10);
+        csl.insertFirst(2);
+        csl.insertFirst(3);
+        csl.insertFirst(4);
         csl.display();
 
     }
