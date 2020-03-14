@@ -1,6 +1,4 @@
-package com.java.singlylinkedlist;
-
-import java.util.List;
+package com.java.linkedlist.singly;
 
 public class SinglyLinkedList {
 

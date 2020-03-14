@@ -1,4 +1,4 @@
-package com.java.doublylinkedlist;
+package com.java.linkedlist.doubly;
 
 import java.util.NoSuchElementException;
 
@@ -22,7 +22,7 @@ public class DoublyLinkedList {
         return length;
     }
 
-    public class ListNode {
+    public static class ListNode {
 
         private int data;
         private ListNode previous;

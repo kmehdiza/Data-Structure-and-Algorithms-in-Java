@@ -1,4 +1,4 @@
-package com.java.circularsinglylinkedlist;
+package com.java.linkedlist.circularsingly;
 
 import java.util.NoSuchElementException;
 
@@ -134,4 +134,6 @@ public class CircularSinglyLinkedList {
 - Time complexity of insertLast method is O(1)
 - Space complexity of insertLast method is O(1)
 
+- Time complexity of removeFirst method is O(1)
+- Space complexity of removeFirst method is O(1)
 * */
