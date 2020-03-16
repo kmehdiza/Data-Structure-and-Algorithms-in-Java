@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6be0d28-8c7f-4685-b25a-0793c1e197ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/stack/StringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/binarytree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/ConvertBinaryToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/DecompressRunLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/RangeSumBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SingleRowKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SmallerNumberThanCurrent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/array/MinArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/array/MinArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/array/PrintElementOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/array/PrintElementOfArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/array/ResizeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/array/ResizeArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/array/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/array/ReverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/array/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/array/StringPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/array/TwoSumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/array/TwoSumProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/linkedlist/circularsingly/CircularSinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/linkedlist/circularsingly/CircularSinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/linkedlist/doubly/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/linkedlist/doubly/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/linkedlist/singly/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/linkedlist/singly/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/singlylinkedlist/CircularSinglyLinkedList$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/singlylinkedlist/CircularSinglyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/singlylinkedlist/DoublyLinkedList$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/singlylinkedlist/DoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/singlylinkedlist/SinglyLinkedList$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/singlylinkedlist/SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/array/TwoSumProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/array/TwoSumProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/linkedlist/doubly/DoublyLinkedList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/linkedlist/doubly/DoublyLinkedList$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/linkedlist/doubly/DoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/linkedlist/doubly/DoublyLinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +48,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.TwoSumProblem">
-    <configuration name="CircularSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.linkedlist.circularsingly.CircularSinglyLinkedList" />
+  <component name="RunManager" selected="Application.SingleRowKeyboard">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.binarytree.BinaryTree" />
       <module name="Data Structure and Algorithms in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.linkedlist.circularsingly.*" />
+          <option name="PATTERN" value="com.java.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.linkedlist.doubly.DoublyLinkedList" />
+    <configuration name="DecompressRunLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.first20page.DecompressRunLength" />
       <module name="Data Structure and Algorithms in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.linkedlist.circularsingly.*" />
+          <option name="PATTERN" value="com.leetcode.first20page.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintElementOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.array.PrintElementOfArray" />
+    <configuration name="SingleRowKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.first20page.SingleRowKeyboard" />
       <module name="Data Structure and Algorithms in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.array.*" />
+          <option name="PATTERN" value="com.leetcode.first20page.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.array.ReverseArray" />
+    <configuration name="SmallerNumberThanCurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.first20page.SmallerNumberThanCurrent" />
       <module name="Data Structure and Algorithms in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.array.*" />
+          <option name="PATTERN" value="com.leetcode.first20page.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleRowKeyboard" />
+        <item itemvalue="Application.DecompressRunLength" />
+        <item itemvalue="Application.SmallerNumberThanCurrent" />
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.TwoSumProblem" />
-        <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.PrintElementOfArray" />
-        <item itemvalue="Application.CircularSinglyLinkedList" />
-        <item itemvalue="Application.DoublyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +139,9 @@
       <workItem from="1584006745438" duration="651000" />
       <workItem from="1584092866035" duration="6781000" />
       <workItem from="1584108817130" duration="12502000" />
-      <workItem from="1584179867038" duration="12535000" />
+      <workItem from="1584179867038" duration="14726000" />
+      <workItem from="1584270367096" duration="1991000" />
+      <workItem from="1584278319518" duration="14643000" />
     </task>
     <servers />
   </component>
@@ -164,22 +157,26 @@
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state x="2383" y="289" key="FileChooserDialogImpl/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584109057671" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1584207716161">
+    <state width="1323" height="258" key="GridCell.Tab.0.bottom" timestamp="1584310810016">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584207716161" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1584207716161">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
+    <state width="1323" height="258" key="GridCell.Tab.0.bottom/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584310810016" />
+    <state width="1323" height="258" key="GridCell.Tab.0.center" timestamp="1584310810016">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584207716161" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1584207716161">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
+    <state width="1323" height="258" key="GridCell.Tab.0.center/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584310810016" />
+    <state width="1323" height="258" key="GridCell.Tab.0.left" timestamp="1584310810016">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584207716161" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1584207716161">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
+    <state width="1323" height="258" key="GridCell.Tab.0.left/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584310810016" />
+    <state width="1323" height="258" key="GridCell.Tab.0.right" timestamp="1584310810016">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584207716161" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
+    <state width="1323" height="258" key="GridCell.Tab.0.right/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584310810016" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583878871095">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
@@ -196,14 +193,18 @@
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1583878871095" />
-    <state x="2104" y="176" key="SettingsEditor" timestamp="1584192695415">
+    <state x="2104" y="176" key="SettingsEditor" timestamp="1584273712479">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
-    <state x="2104" y="176" key="SettingsEditor/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584192695415" />
-    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1584180824016">
+    <state x="2104" y="176" key="SettingsEditor/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584273712479" />
+    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1584345902097">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
-    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584180824016" />
+    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584345902097" />
+    <state x="2012" y="262" width="1182" height="544" key="dock-window-1" timestamp="1584307401159">
+      <screen x="1920" y="170" width="1366" height="728" />
+    </state>
+    <state x="2012" y="262" width="1182" height="544" key="dock-window-1/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584307401159" />
     <state x="2266" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1584104773963">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
