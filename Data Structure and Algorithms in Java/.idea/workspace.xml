@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6be0d28-8c7f-4685-b25a-0793c1e197ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/binarytree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/ConvertBinaryToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/DecompressRunLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/RangeSumBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SingleRowKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SmallerNumberThanCurrent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/binarysearchtree/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/array/TwoSumProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/array/TwoSumProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/linkedlist/doubly/DoublyLinkedList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/linkedlist/doubly/DoublyLinkedList$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/linkedlist/doubly/DoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/linkedlist/doubly/DoublyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/array/TwoSumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/array/TwoSumProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/binarytree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SingleRowKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SingleRowKeyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SmallerNumberThanCurrent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SmallerNumberThanCurrent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Data Structure and Algorithms in Java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/binarytree/BinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/binarytree/BinaryTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/binarytree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/binarytree/BinaryTree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +41,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/NetBeansProjects/Data Structure and Algorithms in Java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.SingleRowKeyboard">
+  <component name="RunManager" selected="Application.BinarySearchTree">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.binarysearchtree.BinarySearchTree" />
+      <module name="Data Structure and Algorithms in Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.binarysearchtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.binarytree.BinaryTree" />
       <module name="Data Structure and Algorithms in Java" />
@@ -101,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.array.TwoSumProblem" />
-      <module name="Data Structure and Algorithms in Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.SingleRowKeyboard" />
         <item itemvalue="Application.DecompressRunLength" />
         <item itemvalue="Application.SmallerNumberThanCurrent" />
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.TwoSumProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +141,9 @@
       <workItem from="1584179867038" duration="14726000" />
       <workItem from="1584270367096" duration="1991000" />
       <workItem from="1584278319518" duration="14643000" />
+      <workItem from="1584345864280" duration="687000" />
+      <workItem from="1584447802677" duration="22000" />
+      <workItem from="1584909307138" duration="6737000" />
     </task>
     <servers />
   </component>
@@ -149,34 +151,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2195" y="192" key="#Project_Structure" timestamp="1584192684028">
+    <state x="2195" y="192" key="#Project_Structure" timestamp="1584917903089">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
-    <state x="2195" y="192" key="#Project_Structure/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584192684028" />
+    <state x="2195" y="192" key="#Project_Structure/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584917903089" />
     <state x="2383" y="289" key="FileChooserDialogImpl" timestamp="1584109057671">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state x="2383" y="289" key="FileChooserDialogImpl/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584109057671" />
-    <state width="1323" height="258" key="GridCell.Tab.0.bottom" timestamp="1584310810016">
+    <state width="1323" height="258" key="GridCell.Tab.0.bottom" timestamp="1584918066070">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
-    <state width="1323" height="258" key="GridCell.Tab.0.bottom/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584310810016" />
-    <state width="1323" height="258" key="GridCell.Tab.0.center" timestamp="1584310810016">
+    <state width="1323" height="258" key="GridCell.Tab.0.bottom/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584918066070" />
+    <state width="1323" height="258" key="GridCell.Tab.0.center" timestamp="1584918066069">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
-    <state width="1323" height="258" key="GridCell.Tab.0.center/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584310810016" />
-    <state width="1323" height="258" key="GridCell.Tab.0.left" timestamp="1584310810016">
+    <state width="1323" height="258" key="GridCell.Tab.0.center/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584918066069" />
+    <state width="1323" height="258" key="GridCell.Tab.0.left" timestamp="1584918066069">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
-    <state width="1323" height="258" key="GridCell.Tab.0.left/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584310810016" />
-    <state width="1323" height="258" key="GridCell.Tab.0.right" timestamp="1584310810016">
+    <state width="1323" height="258" key="GridCell.Tab.0.left/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584918066069" />
+    <state width="1323" height="258" key="GridCell.Tab.0.right" timestamp="1584918066070">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
-    <state width="1323" height="258" key="GridCell.Tab.0.right/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584310810016" />
+    <state width="1323" height="258" key="GridCell.Tab.0.right/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584918066070" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583878871095">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
@@ -193,14 +195,14 @@
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1583878871095" />
-    <state x="2104" y="176" key="SettingsEditor" timestamp="1584273712479">
+    <state x="2104" y="176" key="SettingsEditor" timestamp="1584917887392">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
-    <state x="2104" y="176" key="SettingsEditor/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584273712479" />
-    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1584345902097">
+    <state x="2104" y="176" key="SettingsEditor/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584917887392" />
+    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1584447821065">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
-    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584345902097" />
+    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584447821065" />
     <state x="2012" y="262" width="1182" height="544" key="dock-window-1" timestamp="1584307401159">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>

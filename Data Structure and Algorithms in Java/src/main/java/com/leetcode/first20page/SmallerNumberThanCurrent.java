@@ -15,7 +15,7 @@ public class SmallerNumberThanCurrent {
     }
 
     public static int[] smallerNumbersThanCurrent(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         int[] copy = nums.clone();
         Arrays.sort(copy);
 

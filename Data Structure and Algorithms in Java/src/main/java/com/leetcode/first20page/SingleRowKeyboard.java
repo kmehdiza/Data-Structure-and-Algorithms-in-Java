@@ -15,7 +15,7 @@ public class SingleRowKeyboard {
 
     public static int calculateTime(String board, String word) {
         char[] charArr = board.toCharArray();
-        Map<Character, Integer> map = new HashMap<>();
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
         for (int i = 0; i < charArr.length; i++) {
             map.put(charArr[i], i);
         }

@@ -1,23 +1,25 @@
 package com.java.binarytree;
 
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class BinaryTree {
 
     private TreeNode root;
 
-    public class TreeNode{
+    public class TreeNode {
         private TreeNode right;
         private TreeNode left;
         private int data;
 
-        public TreeNode(int data){
+        public TreeNode(int data) {
             this.data = data;
         }
     }
 
-    public void createBinaryTree(){
+    public void createBinaryTree() {
         TreeNode first = new TreeNode(1);
         TreeNode second = new TreeNode(2);
         TreeNode third = new TreeNode(3);
@@ -31,8 +33,8 @@ public class BinaryTree {
         second.right = fifth;
     }
 
-    public void preOrder(TreeNode root){
-        if(root==null){
+    public void preOrder(TreeNode root) {
+        if (root == null) {
             return;
         }
         System.out.print(root.data + " ");
@@ -40,26 +42,26 @@ public class BinaryTree {
         preOrder(root.right);
     }
 
-    public void iterativePreOrder(){
-        if(root == null){
+    public void iterativePreOrder() {
+        if (root == null) {
             return;
         }
-        Stack<TreeNode> stack = new Stack<>();
+        Stack<TreeNode> stack = new Stack<TreeNode>();
         stack.push(root);
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             TreeNode temp = stack.pop();
             System.out.println(temp.data);
-            if (temp.right!=null){
+            if (temp.right != null) {
                 stack.push(temp.right);
             }
-            if (temp.left!=null){
+            if (temp.left != null) {
                 stack.push(temp.left);
             }
         }
     }
 
-    public void inOrder(TreeNode root){
-        if(root==null){
+    public void inOrder(TreeNode root) {
+        if (root == null) {
             return;
         }
         inOrder(root.left);
@@ -67,20 +69,48 @@ public class BinaryTree {
         inOrder(root.right);
     }
 
-    public void iterativeInOrder(){
-        if(root==null){
+    public void iterativeInOrder() {
+        if (root == null) {
             return;
         }
-        Stack<TreeNode> stack = new Stack<>();
+        Stack<TreeNode> stack = new Stack<TreeNode>();
         TreeNode temp = root;
-        while (!stack.isEmpty() || temp!=null){
-            if(temp!=null){
+        while (!stack.isEmpty() || temp != null) {
+            if (temp != null) {
                 stack.push(temp);
                 temp = temp.left;
-            }else {
+            } else {
                 temp = stack.pop();
                 System.out.print(temp.data + " ");
                 temp = temp.right;
+            }
+        }
+    }
+
+    public void postOrderRecursive(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        postOrderRecursive(root.left);
+        postOrderRecursive(root.right);
+        System.out.print(root.data + " ");
+    }
+
+    public void levelOrderTraversal(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            TreeNode temp = queue.poll();
+            System.out.print(temp.data + " ");
+            if (temp.left != null) {
+                queue.offer(temp.left);
+            }
+            if (temp.right != null) {
+                queue.offer(temp.right);
             }
         }
     }
@@ -120,4 +150,11 @@ In Order Binary Tree traversal
 
 - Time complexity of iterativeInOrder method is O(n)
 - Space complexity of iterativeInOrder method is O(n)
+
+- Time complexity of postOrder method is O(n)
+- Space complexity of postOrder method is O(n)
+
+- Time complexity of levelOrder method is O(n)
+- Space complexity of levelOrder method is O(n)
+
 * */
