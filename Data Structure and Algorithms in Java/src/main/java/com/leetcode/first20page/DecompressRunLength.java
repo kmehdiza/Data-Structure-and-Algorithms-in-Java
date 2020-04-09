@@ -1,41 +1,48 @@
 package com.leetcode.first20page;
 
-public class DecompressRunLength {
+import javax.swing.tree.TreeNode;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Queue;
 
+public class DecompressRunLength {
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 3, 4};
-        int[] arr1 = new int[]{1,1,2,3};
-        int[] result = decompressRunLengthList(arr1);
-        for (Integer num:result){
-            System.out.print(num + " ");
+        int[] nums = new int[]{55,11,70,26,62,64};
+        int[] result =  decompressRLElist(nums);
+        for(int num:result){
+            System.out.print(num);
         }
     }
 
-    public static int[] decompressRunLengthList(int[] nums) {
-
+    public static int[] decompressRLElist(int[] nums){
+        Map<Integer,Integer> map = new HashMap<Integer,Integer>();
         int freq = 0;
-        int value = 0;
+        int val = 0;
+        int countLength = 0;
+
+        for(int i =0; i<nums.length;i+=2){
+            countLength +=nums[i];
+        }
+
+        int[] newArr = new int[countLength];
+
+        for (int i =0; i<nums.length-1;i++){
+            map.put(nums[i],nums[i+1]);
+            i++;
+        }
+        int count = 0;
         int index = 0;
-
-        int cnt = 0;
-        for(int i=0; i<nums.length; i+=2) {
-            cnt += nums[i];
-        }
-
-        int[] res = new int[cnt];
-
-        for (int i = 0; i < nums.length; i++) {
-            freq = nums[i];
-            System.out.println("freq = " +freq);
-            value = nums[i + 1];
-            System.out.println("value = " +value);
-            int count = 0;
-            while (count < freq) {
-                res[index++] = value;
-                count++;
-            }
-            i = i+1;
-        }
-        return res;
+       for(Map.Entry<Integer,Integer> entry:map.entrySet()){
+           freq = entry.getKey();
+           System.out.println(freq);
+           val = entry.getValue();
+           System.out.println(val);
+           while (freq!=count){
+               newArr[index++] = val;
+               count++;
+           }
+           count = 0;
+       }
+       return newArr;
     }
 }

@@ -1,30 +1,35 @@
 package com.leetcode.first20page;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class SingleRowKeyboard {
 
     public static void main(String[] args) {
-        String keyboard = "abcdefghijklmnopqrstuvwxyz";
-        String word = "cba";
-        int result = calculateTime(keyboard, word);
-        System.out.println(result);
+        String keyboard = "pqrstuvwxyzabcdefghijklmno";
+        String word = "leetcode";
+        System.out.println(calculateTime(keyboard, word));
     }
 
+    public static int calculateTime(String keyboard, String word) {
+        HashMap<Character, Integer> map = new HashMap<>();
+        char[] keyArr = keyboard.toCharArray();
+        char[] wordArr = word.toCharArray();
 
-    public static int calculateTime(String board, String word) {
-        char[] charArr = board.toCharArray();
-        Map<Character, Integer> map = new HashMap<Character, Integer>();
-        for (int i = 0; i < charArr.length; i++) {
-            map.put(charArr[i], i);
+
+        for (int i = 0; i < keyArr.length; i++) {
+            if (!map.containsKey(keyArr[i])) {
+                map.put(keyArr[i], i);
+            }
         }
-        int output= 0; int prev = 0;
-        for (char letter : word.toCharArray()) {
-                int temp = map.get(letter);
-                output+= Math.abs(prev-temp);
-                prev = temp;
+
+        int count = 0;
+        int prev = 0;
+        for (int i = 0; i < wordArr.length; i++) {
+            int current = map.get(wordArr[i]);
+            count +=Math.abs(current-prev);
+            prev = current;
         }
-        return output;
+        return count;
     }
+
 }
