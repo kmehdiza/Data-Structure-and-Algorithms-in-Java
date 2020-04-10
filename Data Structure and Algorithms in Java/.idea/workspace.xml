@@ -2,43 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6be0d28-8c7f-4685-b25a-0793c1e197ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/matrix/SortedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/priorityqueueandheaps/BinaryHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/priorityqueueandheaps/BottomUpReheapifyMaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/priorityqueueandheaps/MaxPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/searchalgorithms/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/searchalgorithms/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/sotingalgorithms/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/sotingalgorithms/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/CreateTargetArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/DefagingIpAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/FindAnagramMappings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/FindNumbersEvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/HowManyNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/IntersectionThreeSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/JewelsStones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/ReduceNumberToZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/RemoveVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/ReplaceElementsGreatestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SplitStringBalancedStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SubtractProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/ToLowerCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/second20oage/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/HighFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/Maximum69Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SmallNumbersThanCurrent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/second20age/ArmstrongNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/second20age/CountSubstringsOnlyOneDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/second20age/DecryptStringFromAlphabetInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/second20age/FindNUniqueIntegersSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/second20age/GenerateStringWithCharactersHaveOddCounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/second20age/IncreasingDecreasingString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/second20age/UniqueMorseCodeWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/binarysearchtree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/binarysearchtree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/ConvertBinaryToInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/DecompressRunLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/DecompressRunLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/RangeSumBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SingleRowKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SingleRowKeyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/SmallerNumberThanCurrent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/binarysearchtree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/binarysearchtree/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/first20page/ConvertBinaryToInteger$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/first20page/ConvertBinaryToInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/first20page/DecompressRunLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/first20page/DecompressRunLength.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/first20page/RangeSumBST$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/first20page/RangeSumBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/first20page/SingleRowKeyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/first20page/SingleRowKeyboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/first20page/SmallerNumberThanCurrent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/IntersectionThreeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/first20page/IntersectionThreeSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/second20oage/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/second20age/CellsOddValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/first20page/ReplaceElementsGreatestElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leetcode/first20page/ReplaceElementsGreatestElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/leetcode/second20oage/test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +53,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.ReplaceElementsGreatestElement">
-    <configuration name="CreateTargetArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.first20page.CreateTargetArray" />
+  <component name="RunManager" selected="Application.DecryptStringFromAlphabetInteger">
+    <configuration name="CountSubstringsOnlyOneDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.second20age.CountSubstringsOnlyOneDistinct" />
       <module name="Data Structure and Algorithms in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.first20page.*" />
+          <option name="PATTERN" value="com.leetcode.second20age.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAnagramMappings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.first20page.FindAnagramMappings" />
+    <configuration name="DecryptStringFromAlphabetInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.second20age.DecryptStringFromAlphabetInteger" />
       <module name="Data Structure and Algorithms in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.first20page.*" />
+          <option name="PATTERN" value="com.leetcode.second20age.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceElementsGreatestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.first20page.ReplaceElementsGreatestElement" />
+    <configuration name="FindNUniqueIntegersSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.second20age.FindNUniqueIntegersSum" />
       <module name="Data Structure and Algorithms in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.first20page.*" />
+          <option name="PATTERN" value="com.leetcode.second20age.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitStringBalancedStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.first20page.SplitStringBalancedStrings" />
+    <configuration name="GenerateStringWithCharactersHaveOddCounts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.second20age.GenerateStringWithCharactersHaveOddCounts" />
       <module name="Data Structure and Algorithms in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.first20page.*" />
+          <option name="PATTERN" value="com.leetcode.second20age.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.first20page.ToLowerCase" />
+    <configuration name="UniqueMorseCodeWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.second20age.UniqueMorseCodeWords" />
       <module name="Data Structure and Algorithms in Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.first20page.*" />
+          <option name="PATTERN" value="com.leetcode.second20age.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReplaceElementsGreatestElement" />
-        <item itemvalue="Application.ToLowerCase" />
-        <item itemvalue="Application.FindAnagramMappings" />
-        <item itemvalue="Application.SplitStringBalancedStrings" />
-        <item itemvalue="Application.CreateTargetArray" />
+        <item itemvalue="Application.DecryptStringFromAlphabetInteger" />
+        <item itemvalue="Application.GenerateStringWithCharactersHaveOddCounts" />
+        <item itemvalue="Application.FindNUniqueIntegersSum" />
+        <item itemvalue="Application.UniqueMorseCodeWords" />
+        <item itemvalue="Application.CountSubstringsOnlyOneDistinct" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +153,8 @@
       <workItem from="1585035904494" duration="65000" />
       <workItem from="1585950220865" duration="721000" />
       <workItem from="1586259410695" duration="17299000" />
-      <workItem from="1586418629416" duration="26183000" />
+      <workItem from="1586418629416" duration="26511000" />
+      <workItem from="1586511828880" duration="21684000" />
     </task>
     <servers />
   </component>
@@ -187,30 +166,34 @@
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state x="2195" y="192" key="#Project_Structure/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584917903089" />
+    <state x="2087" y="459" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586551912294">
+      <screen x="1920" y="170" width="1366" height="728" />
+    </state>
+    <state x="2087" y="459" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1586551912294" />
     <state x="2383" y="289" key="FileChooserDialogImpl" timestamp="1585035984269">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state x="2383" y="289" key="FileChooserDialogImpl/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1585035984269" />
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1586465270970">
+    <state width="1323" height="235" key="GridCell.Tab.0.bottom" timestamp="1586551804045">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1586465270970" />
-    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1586465270969">
+    <state width="1323" height="235" key="GridCell.Tab.0.bottom/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1586551804045" />
+    <state width="1323" height="235" key="GridCell.Tab.0.center" timestamp="1586551804045">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
-    <state width="1323" height="214" key="GridCell.Tab.0.center/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1586465270969" />
-    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1586465270969">
+    <state width="1323" height="235" key="GridCell.Tab.0.center/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1586551804045" />
+    <state width="1323" height="235" key="GridCell.Tab.0.left" timestamp="1586551804045">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
-    <state width="1323" height="214" key="GridCell.Tab.0.left/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1586465270969" />
-    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1586465270969">
+    <state width="1323" height="235" key="GridCell.Tab.0.left/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1586551804045" />
+    <state width="1323" height="235" key="GridCell.Tab.0.right" timestamp="1586551804045">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584225231994" />
-    <state width="1323" height="214" key="GridCell.Tab.0.right/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1586465270969" />
+    <state width="1323" height="235" key="GridCell.Tab.0.right/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1586551804045" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1586296638763">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
@@ -231,10 +214,10 @@
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
     <state x="2104" y="176" key="SettingsEditor/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1584917887392" />
-    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1585035909754">
+    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1586511823849">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
-    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1585035909754" />
+    <state x="2299" y="358" key="com.intellij.ide.util.TipDialog/1920.170.1366.728/0.0.1920.1040@1920.170.1366.728" timestamp="1586511823849" />
     <state x="2012" y="262" width="1182" height="544" key="dock-window-1" timestamp="1586266113019">
       <screen x="1920" y="170" width="1366" height="728" />
     </state>
